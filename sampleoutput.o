@@ -1,0 +1,35 @@
+Script started on Mon 24 Oct 2016 04:12:43 PM DST
+]0;justinpac@NINJA: ~/hamming-codejustinpac@NINJA:~/hamming-code$ ./hamming
+Enter up to a fourteen-digit-digit hexadecimal value: 0
+data bits:	  0
+hamming code:	000
+The hamming code is 0
+]0;justinpac@NINJA: ~/hamming-codejustinpac@NINJA:~/hamming-code$ ./hamming
+Enter up to a fourteen-digit-digit hexadecimal value: 1
+data bits:	  1
+hamming code:	111
+The hamming code is 7
+]0;justinpac@NINJA: ~/hamming-codejustinpac@NINJA:~/hamming-code$ ./hamming
+Enter up to a fourteen-digit-digit hexadecimal value: a23d
+data bits:	  1 010 0010001 11101
+hamming code:	001101000010001011101
+The hamming code is 6845d
+]0;justinpac@NINJA: ~/hamming-codejustinpac@NINJA:~/hamming-code$ ./hamming
+Enter up to a fourteen-digit-digit hexadecimal value: 123456789abcde
+data bits:	  1 001 0001101 000101011001111 000100110101011110011011110
+hamming code:	10100011000110100001010110011111000100110101011110011011110
+The hamming code is 518d0acf89abcc0
+]0;justinpac@NINJA: ~/hamming-codejustinpac@NINJA:~/hamming-code$ ./hamming
+Enter up to a fourteen-digit-digit hexadecimal value: 123456789abcdef
+terminate called after throwing an instance of 'std::invalid_argument'
+  what():  greater than fourteen-digit hamming code
+Aborted (core dumped)
+]0;justinpac@NINJA: ~/hamming-codejustinpac@NINJA:~/hamming-code$ ./hamming
+Enter up to a fourteen-digit-digit hexadecimal value: 9
+data bits:	  1 001
+hamming code:	0011001
+The hamming code is 19
+]0;justinpac@NINJA: ~/hamming-codejustinpac@NINJA:~/hamming-code$ exit
+exit
+
+Script done on Mon 24 Oct 2016 04:14:27 PM DST

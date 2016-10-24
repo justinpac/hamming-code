@@ -1,2 +1,8 @@
 # hamming-code
-A C++ program that computes the hamming code of a number
+A C++ program that computes the hamming code of a number. Created for the St. Olaf Hardware Design Class. 
+See [sampleoutput.o](./sampleoutput.o) for a sample run of the hamming program.
+## How to run
+1. Clone this repository
+2. Change directory to your local copy repository
+3. type `make`
+4. run the programming with `./hamming`
